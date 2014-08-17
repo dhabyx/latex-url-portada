@@ -1,0 +1,7 @@
+*.log
+*.pdf
+*.aux
+*.gz
+
+*.swp
+*~
