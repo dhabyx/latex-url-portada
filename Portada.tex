@@ -1,20 +1,25 @@
 % Cómo usarlo
-% Se debe colocar los archivos de la portada dentro de una carpeta portada 
+% Se debe colocar los archivos de la portada dentro de una carpeta portada
 % desde donde será llamado.
 %
-% Se deben declarar los siguientes comandos:
+% Se deben declarar los siguientes comandos, ajustando los valores por
+% los que guste:
+%
 % \newcommand{\HBar}{\rule{\linewidth}{0.5mm}}
-% \newcommand{\nCurso}{}
-% \newcommand{\cTituloA}{Cómo entregar proyectos y laboratorios}
-% \newcommand{\cTituloB}{realizados en Java}
+% \newcommand{\logoURL}{logoURL.png}
+% \newcommand{\nAutor}{Nombre del autor}
+% \newcommand{\nCurso}{Curso}
+% \newcommand{\cTituloA}{Titulo 1}
+% \newcommand{\cTituloB}{Titulo 2}
 % \newcommand{\cFecha}{Agosto de 2,014.}
+
 \pagenumbering{gobble}
 \begin{titlepage}
 
 \vspace*{\fill}
 \begin{center}
 % logo URL
-\includegraphics[width=0.5\textwidth]{portada/logoURL.png}~
+\includegraphics[width=0.5\textwidth]{portada/\logoURL}~
 \\[1cm]
 \text{\LARGE Universidad Rafael Landívar}
 \\
@@ -23,7 +28,7 @@
 \text{\large Ingeniería en Informática y Sistemas}
 \\[1cm]
 \text{\large \nCurso} \\
-Ing. Dhaby Eugenio Xiloj C.
+\nAutor
 \\[2cm]
 \HBar \\[0.5cm]
 \text{\LARGE\cTituloA}
