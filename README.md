@@ -26,7 +26,7 @@ La plantilla no es oficial, es simplemente una propuesta de cómo se debería de
   ```latex
   \begin{document}
 
-  \input{portada/Portada.tex}
+  \input{latex-url-portada/Portada.tex}
   ```
 
 ## Licencia
