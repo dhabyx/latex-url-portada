@@ -10,7 +10,7 @@ La plantilla no es oficial, es simplemente una propuesta de cómo se debería de
 * Al documento principal de LaTeX se debe agregar los siguientes comandos, con los valores correspondientes para su uso.
   ```latex
   \newcommand{\HBar}{\rule{\linewidth}{0.5mm}}
-  \newcommand{\logoURL}{logoURL.png}
+  \newcommand{\logoURL}{logoURL}
   \newcommand{\nAutor}{Nombre del autor}
   \newcommand{\nCurso}{Curso}
   \newcommand{\cTituloA}{Titulo 1}
@@ -57,7 +57,7 @@ La plantilla cuenta con un logotipo base, pero se puede cambiar por cualquier ot
 
 * El logotipo se debe [descargar][descarga-logo] de la página urlmedia de la URL.
 * El nuevo logotipo debe ser colocado en la misma carpeta donde se encuentra la plantilla.
-* Se debe cambiar el valor del comando **logoURL.png** en **\\newcommand{\\logoURL}{logoURL.png}** por el nombre de la imagen.
+* Se debe cambiar el valor del comando **logoURL** en **\\newcommand{\\logoURL}{nombreDeArchivo}** por el nombre de la imagen, no es necesario agregarle la extensión.
 
 [descarga-plantilla]: https://https://github.com/dhabyx/latex-url-portada/archive/master.zip
 [descarga-logo]: http://urlmedia.url.edu.gt/Pages/Busqueda.aspx?filtro=&b=logo
