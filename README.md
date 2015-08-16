@@ -21,6 +21,7 @@ La plantilla no es oficial, es simplemente una propuesta de cómo se debería de
   ```latex
   \newcommand{\cTituloB}{}
   ```
+  
 * Agregue al documento principal la plantilla luego del inicio del documento.
   ```latex
   \begin{document}
