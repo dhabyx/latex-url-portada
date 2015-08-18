@@ -13,14 +13,14 @@
 % \newcommand{\cTituloB}{Titulo 2}
 % \newcommand{\cFecha}{Agosto de 2,014.}
 
-\pagenumbering{gobble}
-\begin{titlepage}
+%\pagenumbering{gobble}
+%\begin{titlepage}
 
-\vspace*{\fill}
+%\vspace*{\fill}
 \begin{center}
 % logo URL
 \includegraphics[width=0.5\textwidth]{latex-url-portada/\logoURL}~
-\\[1cm]
+\\[8mm]
 \text{\LARGE Universidad Rafael Landívar}
 \\
 \text{\Large Facultad de Ingeniería}
@@ -29,15 +29,19 @@
 \\[1cm]
 \text{\large \nCurso} \\
 \nAutor
-\\[2cm]
+\\[0.5cm]
 \HBar \\[0.5cm]
 \text{\LARGE\cTituloA}
-\\[1cm]
+\\[0.5cm]
 \text{\LARGE\cTituloB} \\[0.5cm]
-\HBar \\[3cm]
-
-\cFecha
+\HBar \\[1cm]
+\cFecha\\[3mm]
+\begin{minipage}{0.5\textwidth}
+\centering 
+\includegraphics{latex-url-portada/img/by-sa}\\
+\tiny Este obra está bajo una \href{http://creativecommons.org/licenses/by-sa/4.0/}{licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional}.
+\end{minipage}
 \end{center}
-\vspace*{\fill}
-\end{titlepage}
-\pagenumbering{arabic}
+%\vspace*{\fill}
+%\end{titlepage}
+%\pagenumbering{arabic}
